@@ -9,7 +9,7 @@
     /*Color mode HSL(hue, saturation, lightness)*/
     --primary-color-hue:352;
     --dark-color-lightness:17%;
-    --light-color-lightness:92%;
+    --light-color-lightness:100%;
     --white-color-lightness:100%;
 
     --color-white: hsl(252, 30%, var(--white-color-lightness));
