@@ -215,7 +215,8 @@
     
     .profile {
       border-radius: 50%;
-      border: 0.25em solid var(--color-primary);
+      border: 0.26em solid var(--color-primary);
+      padding: 0.26em;
     }
     .nav-logo
     {
