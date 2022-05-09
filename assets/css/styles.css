@@ -55,7 +55,7 @@
     }
     ::-webkit-scrollbar-thumb
     {
-      background: var(--color-primary);
+      background: var(--color-dark);
       border-radius: .5rem;
     }
     /*========== Responsive Typography ==========*/
@@ -108,8 +108,21 @@
    a
    {
      text-decoration: none;
+     color: var(--color-light);
+   }
+
+   .lni {
      color: var(--color-dark);
    }
+
+   .lni-pallet  {
+    color: var(--color-light);
+   }
+
+   .lni-grid-alt {
+    color: var(--color-light);
+   }
+
    h1,h2,h3
    {
      font-weight: var(--font-semi-bold);
@@ -196,7 +209,7 @@
     .header
     {
       width: 100%;
-      background-color: var(--color-primary);
+      background-color: var(--color-dark);
       position: fixed;
       top: 0;
       left: 0;
@@ -232,7 +245,7 @@
       width: 0.3rem;
       height: 0.3rem;
       border-radius: 50%;
-      background-color: var(--color-dark);
+      background-color: var(--color-light);
       top: 56%;
       right: -0.25rem;
     }
@@ -252,7 +265,7 @@
     }
     .nav-link:hover
     {
-      color: var(--color-light);
+      color: var(--color-primary);
     }
     .nav-close
     {
@@ -1098,7 +1111,7 @@
     }
     .customize-theme .choose-color
     {
-      background: var(--color-light);
+      background: var(--color-dark);
       border-radius: var(--border-radius);
       padding: .6rem 1rem;
       display: flex;
@@ -1258,7 +1271,7 @@
       .nav-menu
       {
         position: fixed;
-        background: var(--color-primary);
+        background: var(--color-dark);
         width: 80%;
         height: 100%;
         top: 0;
