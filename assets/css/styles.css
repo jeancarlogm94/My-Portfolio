@@ -199,10 +199,12 @@ h3 {
 
 .profile {
   border-radius: 50%;
+  width: 250px;
   border: 0.25em solid var(--color-dark);
   padding: 0.3em;
   display: flex;
 }
+
 .nav-logo {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
