@@ -489,8 +489,13 @@ svg .ring:nth-child(3) elipse:nth-child(3) {
 
 .fact-item img {
   /* width: 150px; */
-  height: 80px;
-  max-width: 100px;
+  height: 100px;
+  max-width: 150px;
+  transition: transform 0.3s;
+}
+
+.fact-item img:hover {
+  transform: translateY(-0.625rem);
 }
 
 .fact-item i {
