@@ -135,16 +135,17 @@ h3 {
 /*========== Reusable css classes ==========*/
 .section .container {
   padding-top: 3.9rem;
-  padding-bottom: 4.75rem;
 }
 .section-title {
   font-size: var(--h1-font-size);
   margin-left: var(--m-0-75);
-  margin-bottom: var(--m-2-5);
+
+  text-align: center;
 }
 .padd-15 {
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
 }
 /*========== Buttons ==========*/
 .btn {
@@ -200,6 +201,7 @@ h3 {
   border-radius: 50%;
   border: 0.25em solid var(--color-dark);
   padding: 0.3em;
+  display: flex;
 }
 .nav-logo {
   font-size: var(--h2-font-size);
@@ -421,17 +423,20 @@ svg .ring:nth-child(3) elipse:nth-child(3) {
 
 /*========== About ==========*/
 .about-img {
-  flex: 0 0 25%;
-  max-width: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.about-content {
+/* .about-content {
   flex: 0 0 75%;
   max-width: 75%;
-}
+} */
 .about-content .about-text,
 .about-content .skills {
   flex: 0 0 100%;
   max-width: 100%;
+  text-align: center;
 }
 .rounded {
   background-color: var(--color-white);
