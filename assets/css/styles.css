@@ -286,6 +286,7 @@ h3 {
 .home .intro {
   max-width: 540px;
   text-align: center;
+  margin: 30% 0;
 }
 .home .intro img {
   margin-bottom: var(--m-1);
