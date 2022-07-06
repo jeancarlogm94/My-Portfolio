@@ -203,6 +203,7 @@ h3 {
   border: 0.25em solid var(--color-dark);
   padding: 0.3em;
   display: flex;
+  margin: 5%;
 }
 
 .nav-logo {
