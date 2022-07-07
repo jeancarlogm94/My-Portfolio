@@ -481,7 +481,9 @@ svg .ring:nth-child(3) elipse:nth-child(3) {
   top: -2.5rem;
 }
 .fact-item {
-  flex: 0 0 25%;
+  flex: 0 0 10%;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: 165px;
   margin-top: var(--m-2-5);
   text-align: center;
@@ -492,9 +494,8 @@ svg .ring:nth-child(3) elipse:nth-child(3) {
 }
 
 .fact-item img {
-  /* width: 150px; */
-  height: 100px;
-  max-width: 150px;
+  height: 85px;
+  max-width: 110px;
   transition: transform 0.4s;
   margin-bottom: 10px;
 }
