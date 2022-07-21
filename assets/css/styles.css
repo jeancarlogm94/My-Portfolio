@@ -127,6 +127,7 @@ h3 {
 .container {
   max-width: 968px;
   margin: auto;
+  margin-top: 10px;
 }
 .row {
   display: flex;
@@ -140,7 +141,7 @@ h3 {
 .section-title {
   font-size: var(--h1-font-size);
   margin-left: var(--m-0-75);
-
+  margin-bottom: 50px;
   text-align: center;
 }
 .padd-15 {
@@ -200,10 +201,9 @@ h3 {
 .profile {
   border-radius: 50%;
   width: 250px;
-  border: 0.25em solid var(--color-dark);
+  border: 0.3em solid var(--color-dark);
   padding: 0.3em;
   display: flex;
-  margin: 5%;
 }
 
 .nav-logo {
@@ -513,7 +513,6 @@ svg .ring:nth-child(3) elipse:nth-child(3) {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   display: flex;
-  margin-top: 50px;
 }
 .services .service-item .service-item-inner {
   border-radius: var(--border-radius);
